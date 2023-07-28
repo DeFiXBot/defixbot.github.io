@@ -1,1 +1,205 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+              />
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css" integrity="sha512-mR/b5Y7FRsKqrYZou7uysnOdCIJib/7r5QeJMFvLNHNhtye3xJp1TdJVPLtetkukFn227nKpXD9OjUc09lx97Q==" crossorigin="anonymous"
+              referrerpolicy="no-referrer" />
+        <link href="../assets/css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="/assets/images/cloudy-favicon.png" type="image/x-icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/big-integer/1.6.48/BigInteger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+        <title>Cloudy Finance</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <header class="header" id="header">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container container-1">
+                            <div class="row flex-grow-1 align-items-center">
+                                <div class="col-6 col-lg-2">
+                                    <div class="d-flex align-items-center">
+                                        <button class="navbar-toggler mr-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-header">
+                                            <i class="fas fa-bars"></i>
+                                        </button>
+                                        <div class="logo cursor-pointer" onclick="window.location = 'index.html'">
+                                            <img src="./assets/images/logo-cloudy-finance.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="collapse navbar-collapse" id="navbar-header">
+                                        <ul class="navbar-nav menu-header ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                                            <li>
+                                                <a class="nav-link" href="trade.html">FEATURES</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="rain.html">TOKEN UTILITY</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="storm.html">DefiX Bot</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">AIRDROP</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">COMMUNITY</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+            <main class="home-page" style="">
+                <div class="top-home-page">
+                    <div class="container">
+                        <article class="home-banner">
+                            <div class="home-title">
+                                <div class="home-title-medium">The Fastest, Only and Cheapest Telegram Defi Bot</div>
+                                <h1 class="home-banner-title">Trade effortlessly and with lightning speed on-the-go using our free Telegram bot.</h1>                         
+                            </div>
+                            <a href="#" id="play-btn" ><i class="fa-solid fa-forward"></i>Play Video</a>
+                        </article>
+
+                        <article class="home-instruction" id="home-instruction">
+                            <div class="">
+                                <div class="row ">
+                                    <div class="col-lg-3 order-lg-last">
+                                        <div class="about-cloudy">
+                                            <div class="img">
+                                                <img src="assets/images/cloudy.png" alt="">
+                                            </div>
+                                            <div class="description">
+                                                <h4 class="title">Wallet Tracking</h4>
+                                                <p>Leveraging Telegram, DefixBot offers advanced bot services for seamless crypto trading.Effective wallet tracking, and real-time new token scanning.</p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-9 order-lg-first">
+                                        <div class="about-cloudy documentation">
+                                            <h4 class="title">Telegram Bots</h4>
+                                            <p>Cloudy Finance places the governance of its protocol in the hands of a decentralized assembly of CUD token holders who utilize a democratic process to propose and cast votes on modifications to the protocol, ensuring a transparent and community-driven decision-making approach.</p>
+                                            <a href="#">Written materials <i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                        <div class="instruction ">
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <a type="button" class="btn btn-primary">Twitter<i class="fa-solid fa-arrow-right"></i></a>
+                                                </div>
+                                                <div class="col-lg-6">
+                                                    <a href="https://github.com/cloudyfinance" target="_blank" type="button" class="btn btn-primary">Github<i class="fa-solid fa-arrow-right"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="bottom-home-page">
+                    <div class="container">
+                        <article class="home-instruction" id="home-instruction">
+                            <div class="">
+                                <div class="row ">
+                                    <div class="col-lg-8">
+                                        <div class="about-cloudy documentation">
+                                            <h4 class="title">Telegram Defi Bots</h4>
+                                            <p></p>
+                                            <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        
+                                    </div>
+                                    <div class="instruction ">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="about-cloudy">
+                                                    <h4 class="title">Multi-Wallet Trading Bot</h4>
+                                                    <p>Experience swift crypto trading. It supports managing multiple wallets and quick token swaps.With a user-tendly intertace, select and buy/sell tokens ettortlessly and accurately.</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="about-cloudy">
+                                                    <h4 class="title">New Token Scanner & Sniper</h4>
+                                                    <p>Snipe tokens right at launch. Simply input the token contract and stay updated with our ERC-20 launch scanner channel. Import tokens directly to the sniper with a single tap.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </main>
+            <div class="container" style="position: relative;">
+                <footer class="footer">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="" style="width: 100%;">
+                            <div class="row flex-grow-1 align-items-center">
+                                <div class="col-lg-8">
+                                    <div class="collapse navbar-collapse" id="navbar-footer">
+                                        <ul class="navbar-nav menu-footer">
+                                            <li>
+                                                <a class="nav-link" href="">Security</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Documentation</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Contact us</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Contracts</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Governance</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="social-area d-flex ms-auto mb-2 mb-lg-0 justify-content-end">
+                                        <ul class="social-list d-flex flex-row ">
+                                          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        </ul>
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-footer">
+                                            <i class="fas fa-bars"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </footer>
+            </div>
+        </div>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js" integrity="sha512-FHZVRMUW9FsXobt+ONiix6Z0tIkxvQfxtCSirkKc5Sb4TKHmqq1dZa8DphF0XqKb3ldLu/wgMa8mT6uXiLlRlw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    </body>
+    <script>
+            
+    </script>
+
+</html>

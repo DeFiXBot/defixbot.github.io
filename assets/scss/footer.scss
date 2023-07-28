@@ -1,0 +1,39 @@
+footer {
+    position: absolute;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    padding: 67px 0;
+    nav {
+		.menu-footer {
+			li {
+				margin-left: 60px;
+				a {
+					color: #000;
+				}
+				a:hover {
+					color: #9C9AF4;
+				}
+			}
+			li:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+	.social-area {
+		ul.social-list {
+			list-style: none;
+			margin-bottom: 0;
+			li {
+				margin-left: 40px;
+				a {
+					font-size: 20px;
+				}
+			}
+			li:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+}

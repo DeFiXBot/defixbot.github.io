@@ -1,0 +1,24 @@
+#header {
+	padding: 32px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+	nav {
+		.menu-header {
+			li {
+				margin-left: 60px;
+				a {
+					color: #000;
+				}
+				a:hover {
+					color: #9C9AF4;
+				}
+			}
+			li:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+}
