@@ -530,7 +530,7 @@ footer {
   z-index: 20;
   background-color: #000;
   color: #fff;
-  padding: 32px;
+  padding: 32px 0;
   border-top: 2px solid #fff;
 }
 footer nav .menu-footer li {
@@ -1175,10 +1175,9 @@ a.btn {
 .home-page .why-choose-us .reason .reason-item .description p {
   font-size: 14px;
 }
-
 @media screen and (min-width: 1200px) {
   .container-1 {
-    max-width: 1300px;
+    max-width: 1616px;
   }
   .container-2 {
     max-width: 1170px;
