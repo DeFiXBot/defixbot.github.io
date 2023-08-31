@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+
+@font-face {
+  font-family: "signifier";
+  src: url("../fonts/signifier-light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "soehne";
+  src: url("../fonts/soehne-buch.woff") format("woff");
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -18,7 +29,7 @@ body {
   line-height: 24px;
   letter-spacing: -0.02em;
   font-weight: 300;
-  font-family: Inter;
+  font-family: "soehne", sans-serif;
 }
 
 img {
@@ -498,13 +509,14 @@ h6 {
   left: 0;
   right: 0;
   z-index: 20;
-  background-color: #fff;
+  background-color: #000;
 }
 #header nav .menu-header li {
   margin-left: 60px;
 }
 #header nav .menu-header li a {
-  color: #000;
+  color: #fff;
+  font-weight: bold;
 }
 #header nav .menu-header li a:hover {
   color: #9C9AF4;
@@ -516,8 +528,10 @@ h6 {
 footer {
   position: relative;
   z-index: 20;
-  background-color: #4A38BE;
+  background-color: #000;
   color: #fff;
+  padding: 32px;
+  border-top: 2px solid #fff;
 }
 footer nav .menu-footer li {
   margin-left: 60px;
@@ -553,12 +567,11 @@ footer .social-area ul.social-list li:first-child {
   background: url(../images/top-home-bg-min.png) center center repeat;
 }
 .home-page .about-cloudy {
-  background: #F3F2FE;
-  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.05);
-  border-radius: 5px;
+  background: transparent;
+  border-radius: 0px;
+  border: 2px solid #fff;
   padding: 35px 25px;
   margin-bottom: 24px;
-  border-radius: 16px;
 }
 .home-page .about-cloudy .icon img {
   width: 40px;
@@ -569,12 +582,12 @@ footer .social-area ul.social-list li:first-child {
   font-size: 24px;
   line-height: 29px;
   margin-bottom: 15px;
-  color: #4A38BE;
+  color: #fff;
 }
 .home-page .about-cloudy p {
   font-size: 16px;
   line-height: 24px;
-  color: #616161;
+  color: #fff;
   margin-bottom: 0;
 }
 .home-page .about-cloudy a {
@@ -592,9 +605,13 @@ footer .social-area ul.social-list li:first-child {
   border-color: #9C9AF4;
 }
 .home-page .top-home-page {
-  padding-top: 150px;
-  background-color: #4A38BE;
   color: #fff;
+}
+.home-page .top-home-page .top-home-banner {
+  background: url(../images/bg-home-1.png) center no-repeat;
+  background-size: cover;
+  padding-top: 350px;
+  padding-bottom: 131px;
 }
 .home-page .top-home-page .home-banner .home-title {
   margin-bottom: 27px;
@@ -603,30 +620,30 @@ footer .social-area ul.social-list li:first-child {
   font-size: 30px;
   line-height: 36px;
 }
-.home-page .top-home-page .home-banner #play-btn {
+.home-page #play-btn {
   padding: 16px 32px;
-  background: #EBCE3A;
-  border-radius: 16px;
+  background: #fff;
   font-weight: bold;
   color: #000;
 }
-.home-page .top-home-page .home-banner #play-btn i {
+.home-page #play-btn i {
   margin-right: 12px;
 }
-.home-page .top-home-page .home-banner #play-btn:hover {
+.home-page #play-btn:hover {
   color: #424242;
 }
 .home-page .top-home-page #home-instruction {
   position: relative;
   background-color: #Fff;
-  margin-left: 5.5%;
-  border-radius: 16px 0px 0px 0px;
   padding: 80px;
   text-align: center;
   color: #000;
 }
 .home-page .top-home-page #home-instruction h4.title {
-  margin-bottom: 20px;
+  font-family: "signifier" , sans-serif;
+  margin-bottom: 32px;
+  font-size: 48px;
+  
 }
 .home-page .top-home-page #home-instruction p {
   font-size: 20px;
@@ -635,10 +652,10 @@ footer .social-area ul.social-list li:first-child {
 }
 a.btn {
     padding: 16px 32px;
-    background: linear-gradient(180deg, #4735BC 0%, #78A6FF 100%);
-    border-radius: 16px;
+    background: #000;
     font-weight: bold;
     color: #fff;
+    border-radius: 0;
 }
 .home-page .top-home-page #home-instruction .documentation {
   padding-top: 110px !important;
@@ -675,7 +692,8 @@ a.btn {
 .home-page .bottom-home-page {
   padding-top: 80px;
   padding-bottom: 210px;
-  background: url(../images/bg-bottom-home.png) center no-repeat;
+  background: #000;
+  color: #fff;
 }
 .home-page .bottom-home-page .documentation {
   background: transparent;
@@ -704,6 +722,14 @@ a.btn {
 .home-page .instruction-1 {
   text-align: center;
   margin-bottom: 64px;
+}
+.home-page .instruction-1 h4.title {
+  font-family: "signifier" , sans-serif;
+  font-size: 48px;
+  margin-bottom: 32px;
+}
+.home-page .instruction-1 p {
+  margin-bottom: 40px;
 }
 .page {
   background: url(../images/top-home-bg-min.png) top center no-repeat;
