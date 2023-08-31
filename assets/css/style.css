@@ -614,11 +614,12 @@ footer .social-area ul.social-list li:first-child {
   padding-bottom: 131px;
 }
 .home-page .top-home-page .home-banner .home-title {
-  margin-bottom: 27px;
+  margin-bottom: 50px;
 }
 .home-page .top-home-page .home-banner .home-title .home-title-medium {
   font-size: 30px;
   line-height: 36px;
+  margin-bottom: 24px;
 }
 .home-page #play-btn {
   padding: 16px 32px;
