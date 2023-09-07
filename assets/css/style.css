@@ -619,15 +619,18 @@ footer .social-area ul.social-list li:first-child {
   margin-bottom: 50px;
 }
 .home-page .top-home-page .home-banner .home-title .home-title-medium {
-  font-size: 30px;
+  font-size: 24px;
   line-height: 36px;
   margin-bottom: 24px;
 }
-.home-page #play-btn {
+.home-page .top-home-page .home-banner .home-title h1.home-banner-title {
+  font-size: 36px;
+}
+#play-btn {
   padding: 16px 32px;
   background: #fff;
   font-weight: bold;
-  color: #000;
+  color: #000!important;
 }
 .home-page #play-btn i {
   margin-right: 12px;
@@ -641,12 +644,20 @@ footer .social-area ul.social-list li:first-child {
   padding: 80px;
   text-align: center;
   color: #000;
+  border-bottom: 2px solid #000;
+  margin: 0 32px;
+}
+.home-page .top-home-page #home-instruction:last-child {
+  border: 0;
 }
 .home-page .top-home-page #home-instruction h4.title {
   font-family: "signifier" , sans-serif;
   margin-bottom: 32px;
-  font-size: 48px;
+  font-size: 40px;
   
+}
+.home-page .top-home-page {
+  background: #fff;
 }
 .home-page .top-home-page #home-instruction p {
   font-size: 20px;
@@ -1240,6 +1251,9 @@ a.btn {
   }
   .page .trade-main {
     width: auto;
+  }
+  .home-page .top-home-page #home-instruction {
+    padding: 40px 0;
   }
 }
 
