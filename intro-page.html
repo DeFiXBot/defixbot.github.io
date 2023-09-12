@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css" integrity="sha512-mR/b5Y7FRsKqrYZou7uysnOdCIJib/7r5QeJMFvLNHNhtye3xJp1TdJVPLtetkukFn227nKpXD9OjUc09lx97Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="../assets/css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="/assets/images/defixbot-favicon.svg" type="image/x-icon">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/big-integer/1.6.48/BigInteger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+        <script src="https://kit.fontawesome.com/59a2e13b97.js" crossorigin="anonymous"></script>
+
+        <title>Intro Page</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="">
+                <header class="header" id="header">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container container-1">
+                            <div class="row flex-grow-1 align-items-center">
+                                <div class="col-6 col-lg-2">
+                                    <div class="d-flex align-items-center">
+                                        <button class="navbar-toggler mr-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-header">
+                                            <i class="fas fa-bars"></i>
+                                        </button>
+                                        <div class="logo cursor-pointer" onclick="window.location = 'index.html'">
+                                            <img src="./assets/images/logo-defixbot.png">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="collapse navbar-collapse" id="navbar-header">
+                                        <ul class="navbar-nav menu-header ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                                            <li>
+                                                <a class="nav-link" href="trade.html">Features</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="rain.html">Token Utility</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="storm.html">DefiX Bot</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Airdrop</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Community</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#" id = "play-btn">Start Trading</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+            <main class="home-page intro-page" style="">
+                <div class="bottom-home-page">
+                    <div class="container">
+                        <article class="home-instruction instruction-1" id="home-instruction">
+                            <h4 class="title">Introducing XBOT Token: Powering the Future of SocialFi on DeFiXBot</h4>
+                            <p>We're thrilled to announce the launch of XBOT, our native utility token designed to redefine social finance (SocialFi) and create a more engaging, rewarding, and democratic DeFi ecosystem.</p>
+                            <a href="#" id="play-btn" >Buy XBOT Token</a>
+                        </article>
+                        <article class="home-instruction instruction-2" id="home-instruction">
+                            <div class="">
+                                <div class="row ">
+                                    <div class="instruction ">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="intro-defixbot">
+                                                    <h4 class="title">Rewarding the Community</h4>
+                                                    <p style="margin-bottom: 16px;"><span>Profit Sharing:</span> A portion of the trading volume—10% for buys and 4% for sells—will be automatically distributed to all XBOT token holders.Additional Profits from Bot Transactions: XBOT holders will also share in the profits generated from transactions conducted through the DeFiXBot Telegram bot.</p>
+                                                    <p style="margin-bottom: 50px;"><span>Additional Profits from Bot Transactions:</span> XBOT holders will also share in the profits generated from transactions conducted through the DeFiXBot Telegram bot.</p>
+                                                    <div class="img">
+                                                        <img src="./assets/images/intro-img-1.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="intro-defixbot">
+                                                    <h4 class="title">Dynamic Pricing Mechanism</h4>
+                                                    <p style="margin-bottom: 16px;"><span>Zero Initial Supply:</span> XBOT will launch with a zero initial supply and a pre-determined starting price.</p>
+                                                    <p style="margin-bottom: 0px;"><span>Price Evolution:</span> The token price will dynamically adjust after each transaction. When you buy XBOT, the contract will calculate the number of tokens you receive based on the amount of ETH you use and the current token price. After each buy-in, the token price will slightly increase, and vice versa for selling.</p>
+                                                </div>
+                                                <div class="intro-defixbot">
+                                                    <h4 class="title">Governance and Control</h4>
+                                                    <p style="margin-bottom: 16px;"><span>Voting Rights:</span> Hold XBOT tokens and have a say in the platform's future. Propose and vote on changes to participate in a truly democratic, community-driven governance process.</p>
+                                                    <p style="margin-bottom: 0px;">By investing in XBOT, you're not just buying a token—you're gaining a stake in a vibrant, evolving ecosystem that empowers you to shape its future while earning rewards. Get ready to experience the next level of SocialFi, only on DeFiXBot.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="container container-1" style="position: relative;">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="" style="width: 100%;">
+                            <div class="row flex-grow-1 align-items-center">
+                                <div class="col-lg-8">
+                                    <div class="collapse navbar-collapse" id="navbar-footer">
+                                        <ul class="navbar-nav menu-footer">
+                                            <li>
+                                                <a class="nav-link" href="">Security</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Documentation</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Contact us</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Contracts</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Governance</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="social-area d-flex ms-auto mb-2 mb-lg-0 justify-content-end">
+                                        <ul class="social-list d-flex flex-row ">
+                                            <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                                        </ul>
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-footer">
+                                            <i class="fas fa-bars"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js" integrity="sha512-FHZVRMUW9FsXobt+ONiix6Z0tIkxvQfxtCSirkKc5Sb4TKHmqq1dZa8DphF0XqKb3ldLu/wgMa8mT6uXiLlRlw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    </body>
+    <script>
+            
+    </script>
+
+</html>

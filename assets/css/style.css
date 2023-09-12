@@ -575,6 +575,19 @@ footer .social-area ul.social-list li:first-child {
   padding: 48px 25px;
   margin-bottom: 24px;
 }
+.intro-page .intro-defixbot {
+  border: 2px solid #fff;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.intro-page .intro-defixbot h4 {
+  font-size: 32px;
+  font-family: "signifier" , sans-serif;
+  margin-bottom: 32px;
+}
+.intro-page .intro-defixbot p span {
+  font-weight: bold;
+}
 .home-page .about-cloudy .icon img {
   width: 40px;
   height: 40px;
@@ -711,6 +724,9 @@ a.btn {
   background: #000;
   color: #fff;
 }
+.intro-page .bottom-home-page {
+  padding-top: 120px;
+}
 .home-page .bottom-home-page .documentation {
   background: transparent;
   box-shadow: revert;
@@ -743,6 +759,12 @@ a.btn {
   font-family: "signifier" , sans-serif;
   font-size: 48px;
   margin-bottom: 32px;
+}
+.intro-page .instruction-1 h4.title {
+  font-size: 40px;
+}
+.intro-page .instruction-1 p {
+  font-size: 24px;
 }
 .home-page .instruction-1 p {
   margin-bottom: 40px;
