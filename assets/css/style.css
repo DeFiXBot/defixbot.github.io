@@ -511,6 +511,9 @@ h6 {
   z-index: 20;
   background-color: #000;
 }
+header.intro-page {
+  background-color: #1A776C!important;
+}
 #header nav .menu-header li {
   margin-left: 60px;
 }
@@ -533,6 +536,9 @@ footer {
   color: #fff;
   padding: 16px 0;
   border-top: 2px solid #fff;
+}
+footer.intro-page {
+    background-color: #1A776C!important;
 }
 footer nav .menu-footer li {
   margin-left: 60px;
@@ -723,6 +729,9 @@ a.btn {
   padding-bottom: 210px;
   background: #000;
   color: #fff;
+}
+.intro-page .bottom-home-page {
+  background: #1A776C!important;
 }
 .intro-page .bottom-home-page {
   padding-top: 120px;
