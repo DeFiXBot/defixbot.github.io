@@ -1221,6 +1221,37 @@ a.btn {
 .home-page .why-choose-us .reason .reason-item .description p {
   font-size: 14px;
 }
+#defixbot-modal .modal-content {
+  background-color: #313131;
+  text-align: center;
+  color: #fff;
+}
+#defixbot-modal .modal-header {
+  border: 0;
+}
+#defixbot-modal .modal-header button {
+  width: 24px;
+  background: transparent;
+  outline: 0;
+}
+#defixbot-modal .modal-header button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+#defixbot-modal .modal-body .logo {
+  margin-bottom: 70px;
+}
+#defixbot-modal .modal-body .logo img {
+  width: 256px;
+}
+#defixbot-modal .modal-body .description h4.title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+#defixbot-modal .modal-body .description p {
+  font-size: 20px;
+  line-height: 30px;
+}
 @media screen and (min-width: 1200px) {
   .container-1 {
     max-width: 1616px;
