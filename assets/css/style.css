@@ -20,6 +20,9 @@ html {
   margin: 0;
   padding: 0;
 }
+a {
+  cursor: pointer;
+}
 #defixbot-modal a {
   color: #3391FF!important;
 }
@@ -1225,7 +1228,6 @@ a.btn {
 }
 #defixbot-modal .modal-content {
   background-color: #313131;
-  text-align: center;
   color: #fff;
 }
 #defixbot-modal .modal-header {
@@ -1242,6 +1244,7 @@ a.btn {
 }
 #defixbot-modal .modal-body .logo {
   margin-bottom: 70px;
+  text-align: center;
 }
 #defixbot-modal .modal-body .logo img {
   width: 256px;
