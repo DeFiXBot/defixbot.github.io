@@ -20,7 +20,9 @@ html {
   margin: 0;
   padding: 0;
 }
-
+a {
+  color: #3391FF!important;
+}
 body {
   margin: 0;
   padding: 0;
