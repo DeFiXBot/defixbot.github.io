@@ -20,7 +20,7 @@ html {
   margin: 0;
   padding: 0;
 }
-a {
+#defixbot-modal a {
   color: #3391FF!important;
 }
 body {
@@ -551,7 +551,7 @@ footer nav .menu-footer li a {
   font-size: 18px;
 }
 footer li a {
-  color: #fff;
+  color: #fff!important;
 }
 footer nav .menu-footer li a:hover {
   color: #9C9AF4;
