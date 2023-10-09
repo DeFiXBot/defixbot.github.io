@@ -1327,6 +1327,18 @@ a.btn {
   .home-page .top-home-page .top-home-banner {
     padding-top: 50px;
   }
+  .home-page .bottom-home-page .instruction .about-cloudy {
+    height: auto!important;
+  }
 }
-
+@media screen and (max-width: 1399px) {
+  .home-page .bottom-home-page .instruction .about-cloudy {
+    height: 350px;
+  }
+}
+@media screen and (max-width : 1199px) {
+  .home-page .bottom-home-page .instruction .about-cloudy {
+    height: 450px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
